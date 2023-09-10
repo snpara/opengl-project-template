@@ -1,18 +1,16 @@
 # Template For OpenGL Projects
 
-This template is adapted from [CppProjectTemplate](https://github.com/franneck94/CppProjectTemplate).
-
 ![C++](https://img.shields.io/badge/C%2B%2B-11%2F14%2F17%2F20%2F23-blue)
 ![License](https://camo.githubusercontent.com/890acbdcb87868b382af9a4b1fac507b9659d9bf/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f6c6963656e73652d4d49542d626c75652e737667)
 
-This is a template for C++ projects. What you get:
+This template is adapted from [CppProjectTemplate](https://github.com/franneck94/CppProjectTemplate).
+
+This is a template for OpenGL projects. What you get:
 
 - Library, executable and test code separated in distinct folders
 - Use of modern CMake for building and compiling
 - External libraries installed and managed by
-  - [CPM](https://github.com/cpm-cmake/CPM.cmake) Package Manager OR
-cxxopts) and [fmt](https://github.com/fmtlib/fmt)
-- Code coverage reports, including automatic upload to [Codecov](https://codecov.io)
+  - [CPM](https://github.com/cpm-cmake/CPM.cmake) Package Manager
 - Code documentation with [Doxygen](https://doxygen.nl/)
 - Tooling: Clang-Format, Cmake-Format, Clang-tidy
 
