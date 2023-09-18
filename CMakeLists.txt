@@ -58,8 +58,13 @@ endif()
 find_package(OpenGL REQUIRED)
 find_package(GLEW REQUIRED)
 find_package(glfw3 REQUIRED)
+find_package(glm REQUIRED)
 set(OPENGL_INCLUDE_DIRS ${OPENGL_INCLUDE_DIR})
-set(OPENGL_LIBRARIES ${OPENGL_LIBRARIES} GLEW::GLEW glfw)
+set(OPENGL_LIBRARIES
+    ${OPENGL_LIBRARIES}
+    GLEW::GLEW
+    glfw
+    glm::glm)
 
 message(STATUS "Using CPM")
 include(CPM)
